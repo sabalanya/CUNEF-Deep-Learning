@@ -151,11 +151,11 @@ Found a typo or error? Have a suggestion for improvement? Contributions are welc
 
 **Course Instructor**: Sergio Álvarez Balanyá\
 **Email**: sergio.abalanya@cunef.edu\
-**Office Hours**: [TBD]
+**Office Hours**: Mondays and Fridays 16:00 - 18:00
+- Fridays: 16:00 - 18:00
 
 **Institution**: CUNEF Universidad\
-**Program**: Bachelor's in Business Administration (ADE) \
-**Course**: Machine Learning
+**Course**: Deep Learning
 
 ---
 
