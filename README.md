@@ -32,30 +32,79 @@ Using PyTorch to implement advanced deep learning architectures such as Convolut
 
 ### Part 0: Python Intro
 
-| Notebook | Description | Open in Colab |
-|----------|-------------|---------------|
-| **01 - Introduction to Python** | Python basics: variables, data types, strings, lists, control flow, and functions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/01_intro_python.ipynb) |
-| **02 - NumPy Basics** | Arrays, indexing, operations, matrix multiplication, linspace, and random sampling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/02_numpy_basics.ipynb) |
-| **03 - Pandas Basics** | Series, DataFrames, reading/writing CSV files, indexing, merging, and groupby operations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/03_pandas_basics.ipynb) |
-| **04 - Matplotlib Basics** | Data visualization: line plots, scatter plots, bar charts, histograms, and subplots | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/04_matplotlib_basics.ipynb) |
+<table>
+  <tr>
+    <th style="width: 25%">Notebook</th>
+    <th style="width: 55%">Description</th>
+    <th style="width: 20%">Open in Colab</th>
+  </tr>
+  <tr>
+    <td><strong>01 - Introduction to Python</strong></td>
+    <td>Python basics: variables, data types, strings, lists, control flow, and functions</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/01_intro_python.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+  </tr>
+  <tr>
+    <td><strong>02 - NumPy Basics</strong></td>
+    <td>Arrays, indexing, operations, matrix multiplication, linspace, and random sampling</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/02_numpy_basics.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+  </tr>
+  <tr>
+    <td><strong>03 - Pandas Basics</strong></td>
+    <td>Series, DataFrames, reading/writing CSV files, indexing, merging, and groupby operations</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/03_pandas_basics.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+  </tr>
+  <tr>
+    <td><strong>04 - Matplotlib Basics</strong></td>
+    <td>Data visualization: line plots, scatter plots, bar charts, histograms, and subplots</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Machine-Learning/blob/main/part1_fundamentals/04_matplotlib_basics.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+  </tr>
+</table>
 
 ### Part 1: Fundamentals
-| Notebook | Description | Open in Colab |
-|----------|-------------|---------------|
-| **01 - Linear Regression** | Hands-on, from-scratch implementations of Linear Regression: closed-form least squares and iterative gradient descent, with clear code, explanations, and exercises. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/fundamentals/linear_regression_solutions.ipynb) |
+
+<table>
+  <tr>
+    <th style="width: 25%">Notebook</th>
+    <th style="width: 55%">Description</th>
+    <th style="width: 20%">Open in Colab</th>
+  </tr>
+  <tr>
+    <td><strong>01 - Linear Regression</strong></td>
+    <td>Hands-on, from-scratch implementations of Linear Regression: closed-form least squares and iterative gradient descent, with clear code, explanations, and exercises.</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/fundamentals/linear_regression_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+  </tr>
+</table>
 
 
 ### Part 2: Deep dive into Deep Learning
 
-| Notebook | Description | Open in Colab |
-|----------|-------------|---------------|
-| *Coming soon...* | | |
+<table>
+  <tr>
+    <th style="width: 25%">Notebook</th>
+    <th style="width: 55%">Description</th>
+    <th style="width: 20%">Open in Colab</th>
+  </tr>
+  <tr>
+    <td><em>Coming soon...</em></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Part 3: Pytorch and Advanced Architectures
 
-| Notebook | Description | Open in Colab |
-|----------|-------------|---------------|
-| *Coming soon...* | | |
+<table>
+  <tr>
+    <th style="width: 25%">Notebook</th>
+    <th style="width: 55%">Description</th>
+    <th style="width: 20%">Open in Colab</th>
+  </tr>
+  <tr>
+    <td><em>Coming soon...</em></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
