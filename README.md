@@ -73,6 +73,10 @@ Using PyTorch to implement advanced deep learning architectures such as Convolut
     <td>Hands-on, from-scratch implementations of Linear Regression: closed-form least squares and iterative gradient descent, with clear code, explanations, and exercises.</td>
     <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/fundamentals/linear_regression_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
   </tr>
+  <tr>
+    <td><strong>02 - Logistic Regression</strong></td>
+    <td>From-scratch implementation of Logistic Regression using gradient descent, including decision boundary visualization and exercises to deepen understanding.</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/fundamentals/logitstic_regression_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
 </table>
 
 
