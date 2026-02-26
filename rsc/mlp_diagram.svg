@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 580" width="820" height="580" font-family="'Georgia', serif">
+  <defs>
+    <radialGradient id="nodeGradInput" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#e8f4fd"/>
+      <stop offset="100%" stop-color="#a8d4f5"/>
+    </radialGradient>
+    <radialGradient id="nodeGradOutput" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#fde8e8"/>
+      <stop offset="100%" stop-color="#f5a8a8"/>
+    </radialGradient>
+    <radialGradient id="nodeGradHidden" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#eaf5e8"/>
+      <stop offset="100%" stop-color="#a8d4a8"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000030"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#8bacc8"/>
+    </marker>
+    <marker id="arrowBias" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#c8a020"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="580" fill="#f7f9fc" rx="12"/>
+
+  <!-- Title -->
+  <text x="410" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a2e45" letter-spacing="1">Multilayer Perceptron — Binary Classification</text>
+
+  <!-- Layer labels -->
+  <text x="130" y="72" text-anchor="middle" font-size="13" fill="#5a7a9a" font-style="italic">Input Layer</text>
+  <text x="410" y="72" text-anchor="middle" font-size="13" fill="#5a7a9a" font-style="italic">Hidden Layer</text>
+  <text x="690" y="72" text-anchor="middle" font-size="13" fill="#5a7a9a" font-style="italic">Output Layer</text>
+
+  <!-- Dimension labels -->
+  <text x="130" y="90" text-anchor="middle" font-size="11" fill="#8bacc8">(d = 2)</text>
+  <text x="410" y="90" text-anchor="middle" font-size="11" fill="#8bacc8">(d = 5)</text>
+  <text x="690" y="90" text-anchor="middle" font-size="11" fill="#8bacc8">(d = 1)</text>
+
+  <!-- Layer separator lines -->
+  <line x1="280" y1="105" x2="280" y2="490" stroke="#c8d8e8" stroke-width="1" stroke-dasharray="6,5" opacity="0.6"/>
+  <line x1="550" y1="105" x2="550" y2="490" stroke="#c8d8e8" stroke-width="1" stroke-dasharray="6,5" opacity="0.6"/>
+
+  <!-- ===== HIDDEN NODE Y-POSITIONS: 130, 210, 290, 370, 450 ===== -->
+
+  <!-- CONNECTIONS: x1 (y=230) → hidden nodes -->
+  <line x1="160" y1="230" x2="378" y2="130" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="230" x2="378" y2="210" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="230" x2="378" y2="290" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="230" x2="378" y2="370" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="230" x2="378" y2="450" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+
+  <!-- CONNECTIONS: x2 (y=350) → hidden nodes -->
+  <line x1="160" y1="350" x2="378" y2="130" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="350" x2="378" y2="210" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="350" x2="378" y2="290" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="350" x2="378" y2="370" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="160" y1="350" x2="378" y2="450" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+
+  <!-- CONNECTIONS: hidden nodes → output (y=290) -->
+  <line x1="442" y1="130" x2="658" y2="285" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="442" y1="210" x2="658" y2="285" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="442" y1="290" x2="658" y2="285" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="442" y1="370" x2="658" y2="285" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+  <line x1="442" y1="450" x2="658" y2="285" stroke="#8bacc8" stroke-width="1.1" opacity="0.55" marker-end="url(#arrow)"/>
+
+  <!-- ===== INPUT NODES ===== -->
+  <circle cx="130" cy="230" r="30" fill="url(#nodeGradInput)" stroke="#4a82b0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="130" y="226" text-anchor="middle" font-size="16" fill="#1a3a5c" font-style="italic">x</text>
+  <text x="138" y="236" text-anchor="middle" font-size="11" fill="#1a3a5c">1</text>
+
+  <circle cx="130" cy="350" r="30" fill="url(#nodeGradInput)" stroke="#4a82b0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="130" y="346" text-anchor="middle" font-size="16" fill="#1a3a5c" font-style="italic">x</text>
+  <text x="138" y="356" text-anchor="middle" font-size="11" fill="#1a3a5c">2</text>
+
+  <!-- ===== HIDDEN NODES ===== -->
+  <circle cx="410" cy="130" r="30" fill="url(#nodeGradHidden)" stroke="#4a8a4a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="410" y="126" text-anchor="middle" font-size="16" fill="#1a4a1a" font-style="italic">h</text>
+  <text x="418" y="136" text-anchor="middle" font-size="11" fill="#1a4a1a">1</text>
+
+  <circle cx="410" cy="210" r="30" fill="url(#nodeGradHidden)" stroke="#4a8a4a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="410" y="206" text-anchor="middle" font-size="16" fill="#1a4a1a" font-style="italic">h</text>
+  <text x="418" y="216" text-anchor="middle" font-size="11" fill="#1a4a1a">2</text>
+
+  <circle cx="410" cy="290" r="30" fill="url(#nodeGradHidden)" stroke="#4a8a4a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="410" y="286" text-anchor="middle" font-size="16" fill="#1a4a1a" font-style="italic">h</text>
+  <text x="418" y="296" text-anchor="middle" font-size="11" fill="#1a4a1a">3</text>
+
+  <circle cx="410" cy="370" r="30" fill="url(#nodeGradHidden)" stroke="#4a8a4a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="410" y="366" text-anchor="middle" font-size="16" fill="#1a4a1a" font-style="italic">h</text>
+  <text x="418" y="376" text-anchor="middle" font-size="11" fill="#1a4a1a">4</text>
+
+  <circle cx="410" cy="450" r="30" fill="url(#nodeGradHidden)" stroke="#4a8a4a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="410" y="446" text-anchor="middle" font-size="16" fill="#1a4a1a" font-style="italic">h</text>
+  <text x="418" y="456" text-anchor="middle" font-size="11" fill="#1a4a1a">5</text>
+
+  <!-- ===== OUTPUT NODE ===== -->
+  <circle cx="690" cy="290" r="30" fill="url(#nodeGradOutput)" stroke="#9a3a3a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="690" y="286" text-anchor="middle" font-size="16" fill="#4a1a1a" font-style="italic">ŷ</text>
+
+  <!-- ===== WEIGHT LABELS ===== -->
+  <rect x="222" y="260" width="56" height="26" rx="6" fill="#ddeeff" stroke="#4a82b0" stroke-width="1.5" opacity="0.95"/>
+  <text x="250" y="278" text-anchor="middle" font-size="14" fill="#1a3a6a" font-weight="bold" font-style="italic">W</text>
+  <text x="261" y="282" text-anchor="middle" font-size="10" fill="#1a3a6a">1</text>
+
+  <rect x="522" y="230" width="56" height="26" rx="6" fill="#ddeeff" stroke="#4a82b0" stroke-width="1.5" opacity="0.95"/>
+  <text x="550" y="248" text-anchor="middle" font-size="14" fill="#1a3a6a" font-weight="bold" font-style="italic">W</text>
+  <text x="561" y="252" text-anchor="middle" font-size="10" fill="#1a3a6a">2</text>
+
+  <!-- ===== ACTIVATION LABEL on hidden layer ===== -->
+  <rect x="353" y="488" width="114" height="24" rx="7" fill="#fff3d4" stroke="#c8a020" stroke-width="1.5"/>
+  <text x="410" y="505" text-anchor="middle" font-size="12" fill="#7a5000" font-weight="bold">ReLU(·)</text>
+
+  <!-- activation arrows from label to nodes -->
+  <line x1="410" y1="488" x2="410" y2="480" stroke="#c8a020" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" marker-end="url(#arrowBias)"/>
+
+  <!-- ===== BIAS NODES ===== -->
+  <!-- b1 — positioned to right of hidden col -->
+  <rect x="468" y="115" width="58" height="26" rx="7" fill="#fff8e8" stroke="#c8a020" stroke-width="1.8" filter="url(#shadow)"/>
+  <text x="497" y="133" text-anchor="middle" font-size="14" fill="#7a5a00" font-style="italic">b</text>
+  <text x="506" y="138" text-anchor="middle" font-size="10" fill="#7a5a00">1</text>
+  <!-- b1 dashed connections to each hidden node -->
+  <line x1="468" y1="128" x2="442" y2="128" stroke="#c8a020" stroke-width="1" stroke-dasharray="4,3" opacity="0.65" marker-end="url(#arrowBias)"/>
+  <line x1="468" y1="130" x2="442" y2="208" stroke="#c8a020" stroke-width="1" stroke-dasharray="4,3" opacity="0.55" marker-end="url(#arrowBias)"/>
+  <line x1="468" y1="132" x2="442" y2="288" stroke="#c8a020" stroke-width="1" stroke-dasharray="4,3" opacity="0.45" marker-end="url(#arrowBias)"/>
+  <line x1="468" y1="134" x2="442" y2="368" stroke="#c8a020" stroke-width="1" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrowBias)"/>
+  <line x1="468" y1="136" x2="442" y2="448" stroke="#c8a020" stroke-width="1" stroke-dasharray="4,3" opacity="0.25" marker-end="url(#arrowBias)"/>
+
+  <!-- b2 -->
+  <rect x="659" y="338" width="58" height="26" rx="7" fill="#fff8e8" stroke="#c8a020" stroke-width="1.8" filter="url(#shadow)"/>
+  <text x="688" y="356" text-anchor="middle" font-size="14" fill="#7a5a00" font-style="italic">b</text>
+  <text x="697" y="361" text-anchor="middle" font-size="10" fill="#7a5a00">2</text>
+  <line x1="688" y1="338" x2="688" y2="320" stroke="#c8a020" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.7" marker-end="url(#arrowBias)"/>
+
+  <!-- ===== FORMULA BOX ===== -->
+  <rect x="30" y="517" width="760" height="50" rx="8" fill="#fff" stroke="#c8d8e8" stroke-width="1.5" opacity="0.95"/>
+  <text x="410" y="537" text-anchor="middle" font-size="12.5" fill="#2a4a6a">
+    <tspan font-weight="bold">Forward pass: </tspan>
+    <tspan font-style="italic">h</tspan>
+    <tspan> = ReLU(W</tspan><tspan baseline-shift="sub" font-size="9">1</tspan>
+    <tspan> x + b</tspan><tspan baseline-shift="sub" font-size="9">1</tspan>
+    <tspan>),   ŷ = σ(W</tspan><tspan baseline-shift="sub" font-size="9">2</tspan>
+    <tspan> h + b</tspan><tspan baseline-shift="sub" font-size="9">2</tspan>
+    <tspan>)</tspan>
+  </text>
+  <text x="410" y="557" text-anchor="middle" font-size="11.5" fill="#5a7a9a">
+    W<tspan baseline-shift="sub" font-size="9">1</tspan>
+    <tspan> ∈ ℝ</tspan><tspan baseline-shift="super" font-size="9">5×2</tspan>
+    <tspan>,  b</tspan><tspan baseline-shift="sub" font-size="9">1</tspan>
+    <tspan> ∈ ℝ</tspan><tspan baseline-shift="super" font-size="9">5</tspan>
+    <tspan>,  W</tspan><tspan baseline-shift="sub" font-size="9">2</tspan>
+    <tspan> ∈ ℝ</tspan><tspan baseline-shift="super" font-size="9">1×5</tspan>
+    <tspan>,  b</tspan><tspan baseline-shift="sub" font-size="9">2</tspan>
+    <tspan> ∈ ℝ</tspan><tspan baseline-shift="super" font-size="9">1</tspan>
+    <tspan>,  σ = sigmoid (output)</tspan>
+  </text>
+</svg>
