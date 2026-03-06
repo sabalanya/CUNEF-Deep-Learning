@@ -94,10 +94,10 @@ Using PyTorch to implement advanced deep learning architectures such as Convolut
     <th style="width: 15%">Solutions in Colab</th>
   </tr>
   <tr>
-    <td><strong>02 - Logistic Regression</strong></td>
+    <td><strong>01 - Multi-Layer Perceptron (MLP) from Scratch</strong></td>
     <td>From-scratch implementation of  Multi-Layer Perceptron (MLP) using PyTorch.</td>
     <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/mlp/mlp_from_scratch_pytorch.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    <td><em>Comming soon...</em></td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/mlp/mlp_from_scratch_pytorch_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
   </tr>
 </table>
 
