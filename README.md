@@ -99,6 +99,12 @@ Using PyTorch to implement advanced deep learning architectures such as Convolut
     <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/mlp/mlp_from_scratch_pytorch.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
     <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/mlp/mlp_from_scratch_pytorch_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
   </tr>
+  <tr>
+    <td><strong>02 - Pytorch Framework and Optimizers</strong></td>
+    <td>Introduction to the PyTorch framework and various optimizers.</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/mlp/pytorch_framework.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+    <td><em>Coming soon...</em></td>
+  </tr>
 </table>
 
 ### Part 3: Pytorch and Advanced Architectures
