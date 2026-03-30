@@ -109,7 +109,7 @@ Using PyTorch to implement advanced deep learning architectures such as Convolut
     <td><strong>03 - Regularization and Development Cycle</strong></td>
     <td>Techniques for regularization and understanding the development cycle in PyTorch.</td>
     <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/mlp/dnn_dev_cycle.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    <td><em>Coming soon...</em></td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/mlp/dnn_dev_cycle_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
   </tr>
 </table>
 
@@ -117,14 +117,16 @@ Using PyTorch to implement advanced deep learning architectures such as Convolut
 
 <table>
   <tr>
-    <th style="width: 25%">Notebook</th>
-    <th style="width: 55%">Description</th>
-    <th style="width: 20%">Open in Colab</th>
+    <th style="width: 20%">Notebook</th>
+    <th style="width: 50%">Description</th>
+    <th style="width: 15%">Open in Colab</th>
+    <th style="width: 15%">Solutions in Colab</th>
   </tr>
   <tr>
+    <td><strong>01 - Building Neural Networks with nn.Module & CNNs</strong></td>
+    <td>Introduction to building neural networks using PyTorch's nn.Module and Convolutional Neural Networks (CNNs).</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/cnns/cnns_with_module.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
     <td><em>Coming soon...</em></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
