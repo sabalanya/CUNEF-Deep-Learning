@@ -126,7 +126,19 @@ Using PyTorch to implement advanced deep learning architectures such as Convolut
     <td><strong>01 - Building Neural Networks with nn.Module & CNNs</strong></td>
     <td>Introduction to building neural networks using PyTorch's nn.Module and Convolutional Neural Networks (CNNs).</td>
     <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/cnns/cnns_with_module.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
-    <td><em>Coming soon...</em></td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/cnns/cnns_with_module_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+  </tr>
+  <tr>
+    <td><strong>02 - ResNets and Transfer Learning</strong></td>
+    <td>Introduction to ResNet architectures and transfer learning techniques.</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/cnns/resnets_and_transfer_learning.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/cnns/resnets_and_transfer_learning_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+  </tr>
+  <tr>
+    <td><strong>03 - Advanced Applications</strong></td>
+    <td>Exploring advanced applications of deep learning techniques.</td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/cnns/advanced_applications.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
+    <td><a href="https://colab.research.google.com/github/sabalanya/CUNEF-Deep-Learning/blob/main/cnns/advanced_applications_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></td>
   </tr>
 </table>
 
